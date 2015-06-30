@@ -6,14 +6,17 @@
 -->
 <html>
 	<head>
-		<title>Alpha by HTML5 UP</title>
+		<title>UniCal by Pravesh Sakhrani</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="dist/css/lightbox.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
 	</head>
 	<body class="landing">
+		
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -38,7 +41,7 @@
 							<h2>PROMO VIDEO
 							<br />
 							</h2>
-							<iframe id = "video" width="660em" height="415em" src="https://www.youtube.com/embed/ZmltCu5_bVQ" frameborder="0" allowfullscreen></iframe>
+							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZmltCu5_bVQ" frameborder="0" allowfullscreen></iframe> -->
 						</header>
 					
 					</section>
@@ -47,10 +50,23 @@
 						<div class="features-row">
 							<h2> SCREENSHOTS
 								<ul class= "screenshotList">
-									<li><div><img src="images/screenshot1.jpg"></div></li>
-									<li><div><img src="images/screenshot1.jpg"></div></li>
-									<li><div><img src="images/screenshot1.jpg"></div></li>
-									<li><div><img src="images/screenshot1.jpg"></div></li>
+									<li>
+										<div>
+											<a href="images/screenshot1.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/screenshot1.jpg"></a>
+										</div>
+									</li>
+									<li>
+										<div>
+											<img src="images/screenshot1.jpg"></div>
+										</li>
+									<li>
+										<div>
+											<img src="images/screenshot1.jpg"></div>
+										</li>
+									<li>
+										<div>
+											<img src="images/screenshot1.jpg"></div>
+										</li>
 								</ul>
 						</div>
 					</section>
@@ -85,6 +101,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+			
 	</body>
 </html>
