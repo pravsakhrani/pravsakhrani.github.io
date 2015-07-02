@@ -1894,6 +1894,15 @@
 		hr.major {
 			margin: 3em 0;
 		}
+		#dp {
+			max-width: 350px;
+			max-height: 240px;
+			padding-top: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			display: inline-block;
+			float: left;
+		}
 
 	blockquote {
 		border-left: solid 4px #e5e5e5;
@@ -1981,11 +1990,15 @@
 
 		header.major p {
 			display: inline-block;
-			border-top: solid 2px #e5e5e5;
 			color: #777;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
+		}
+		#aboutpara {
+			display: block;
+			padding: 0;
+
 		}
 
 /* Form */
