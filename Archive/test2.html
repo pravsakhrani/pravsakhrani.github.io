@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	  <div class="example">
+        <div id="card-1" class="card" style="perspective: 2280px; position: relative;"> 
+          <div class="front alert alert-info" style="height: 300px; width: 1140px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out; -webkit-transition: all 0.5s ease-out; backface-visibility: hidden; transform: rotateY(0deg);"> 
+            <img src="calendar.jpg" style="position:relative;left:0;top:0;"/>
+            <img id="switch1" src="switch.jpg" style="position:absolute;left:1142px;top:20px;">
+          </div> 
+          <div class="back well well-lg" style="transform: rotateY(-180deg); height: 300px; width: 1140px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out; -webkit-transition: all 0.5s ease-out; backface-visibility: hidden;">
+            <img src="todolist.jpg"/>
+            <img id="switch2" src="switch.jpg" style="position:absolute;left:1140px;top:20px;">
+          </div> 
+        </div>
+      </div>
+      <script src="jquery-1.10.2.min.js"></script>
+      <script src="prettify.js"></script>
+      <script src="jquery.flip.js"></script>
+      <script type="text/javascript">
+	      $(function(){
+	        prettyPrint();
+	        
+
+	        $("#switch1").flip({
+	        	trigger: 'click'
+	        });
+
+
+
+
+	        $("#switch1").click(function(){
+	          $("#card-1").flip(true);
+	        });
+
+	        $("#switch2").click(function(){
+	          $("#card-1").flip(false);
+	        });
+	      });
+	  </script>
+	</body>
+</html>

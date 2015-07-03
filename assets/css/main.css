@@ -1896,7 +1896,7 @@
 		}
 		#dp {
 			max-width: 30em;
-			max-height: 15em;
+			max-height: 15`em;
 			padding-top: 20px;
 			padding-right: 20px;
 			padding-bottom: 20px;
