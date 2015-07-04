@@ -1945,11 +1945,13 @@
 	.align-right {
 		text-align: right;
 	}
-	#features {
-		text-align: left;
-	}
-	#featurelist {
-		padding-left: 21em;
+	
+	#featurelist{
+    width:705.797px;
+    margin:0 auto;
+    text-align:left;åg
+
+}
 	}
 	#comments {
 		text-align: center;
